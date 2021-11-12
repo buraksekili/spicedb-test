@@ -1,0 +1,4 @@
+Testing fundamental SpiceDB features (in-memory).
+
+$ spicedb serve --grpc-preshared-key "somerandomkeyhere" --grpc-no-tls --http-no-tls
+$ go build && ./spicedb-test
